@@ -24,6 +24,7 @@ def Update():
         if b:
             func()
             t.forward(50)
+            break
     t.ontimer(Update,16)
 t.listen()
 Update()
